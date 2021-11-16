@@ -8,30 +8,55 @@
     :: Last Updated: May 2, 2018
     #################################################### */
 
+
 /* ---------------------------------------
     ##### - PLACE YOUR CUSTOM CSS HERE - #####
     --------------------------------------- */
+
 * {
-  font-family: "Ubuntu", sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
 
 #h1_logo {
-  border-bottom: 2px solid black;
-  padding: 15px;
+    border-bottom: 2px solid black;
+    padding: 15px;
 }
 
 .flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
-  color: #fbb710;
+    color: #fbb710;
 }
 
 .logo p {
-  text-align: center;
-  color: #242424;
+    text-align: center;
+    color: #242424;
+}
+
+.about-us-container {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.about-us-main {
+    padding-top: 50px;
+    max-width: 400px;
+}
+
+.small-text {
+    color: #fbb710;
+}
+
+i {
+    font-size: 12px;
+    color: #242424;
+    text-decoration: underline;
 }
