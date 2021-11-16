@@ -26,6 +26,12 @@
   justify-content: center;
   align-items: center;
 }
+
 a {
   color: #fbb710;
+}
+
+.logo p {
+  text-align: center;
+  color: #242424;
 }
