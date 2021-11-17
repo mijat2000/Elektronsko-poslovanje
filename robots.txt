@@ -1,2 +1,5 @@
+User-agent: JoobleBot
+Disallow: /
+
 User-agent: *
-Disallow: 
+Disallow:
